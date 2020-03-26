@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: default-production
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: default-production
+  pipelines: {}
